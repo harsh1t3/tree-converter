@@ -1,0 +1,5 @@
+my-app
+├── README.md # Overview
+├── app.py # Main logic
+└── utils/
+    └── helpers.py # Utility functions
