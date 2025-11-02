@@ -1,5 +1,23 @@
-my-app
-├── README.md # Overview
-├── app.py # Main logic
-└── utils/
-    └── helpers.py # Utility functions
+my-web-app
+├── README.md # Project documentation
+├── package.json # Dependencies
+├── .gitignore # Git ignore rules
+├── src/
+│   ├── index.js # Application entry point
+│   ├── app.js # Main app logic
+│   ├── components/
+│   │   ├── Header.js # Header component
+│   │   ├── Footer.js # Footer component
+│   │   └── Navbar.js # Navigation bar
+│   ├── utils/
+│   │   ├── helpers.js # Helper functions
+│   │   └── validators.js # Input validation
+│   └── styles/
+│       ├── main.css # Main styles
+│       └── theme.css # Theme variables
+├── public/
+│   ├── index.html # HTML template
+│   └── favicon.ico # Site icon
+└── tests/
+    ├── app.test.js # App tests
+    └── utils.test.js # Utility tests
